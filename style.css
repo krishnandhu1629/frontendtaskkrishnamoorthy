@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #ff4b81;
+  margin-bottom: 20px;
+}
+
+.offer-box {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.offer-header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.offer-header label {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.offer-title {
+  font-weight: bold;
+}
+
+.badge {
+  background: #ff9ebc;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.badge.popular {
+  background: #ff4b81;
+}
+
+.price {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.price del {
+  color: #aaa;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.offer-content {
+  display: none;
+  padding: 15px;
+  background: #fffafc;
+  border-top: 1px solid #eee;
+}
+
+.offer-box.active .offer-content {
+  display: block;
+}
+
+.options {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+select {
+  padding: 4px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.free {
+  color: #ff4b81;
+}
+
+.cart-btn {
+  background: #ff4b81;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
